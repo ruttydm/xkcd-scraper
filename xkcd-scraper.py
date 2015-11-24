@@ -21,6 +21,11 @@ class xkcd_scraper:
 		self.download_dir = download_dir
 		self.append_title = False
 
+	# Generate a text file containing all the meta-data
+	def generate_index(self):
+		# TODO: Implement index generation
+		print("Implement this!!!");
+
 	def download_json(self, comic_number):
 		# Can this even happen
 		if comic_number < 0:
